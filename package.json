@@ -25,5 +25,9 @@
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "manifest": "^0.1.4",
+    "webpack": "^5.31.2"
+  }
 }
