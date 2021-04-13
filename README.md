@@ -1,63 +1,71 @@
 # Budget-Trackers-Online-Offline
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+by: Jack Funck
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## table of Contents:
+ - [Link.](#link)
+ - [ Description. ](#desc)
+ - [ Instructions. ](#instr)
+ - [Technologies.](#tc)
+ - [Dependencies](#dep)
+ - [ Video. ](#video)
+ - [Screen-Shots.](#sc)
 
-- - -
+<a name="link"></a>
+## Link
+give it a try: <a href="https://fitnesscoolness.herokuapp.com/?id=606b87db9a6228001595c2e2" target="_blank"> Workout Tracker</a>
 
-## Commit Early and Often
+<a name="desc"></a>
+## Description
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+This application is a workout/fitness tracker that allows a user to create, track, and view daily workouts. They are given the option to log multiple workouts a day, and the application tracks the name, type, weight, sets, reps, and duration if it is a resistance exercise, and tracks the distance travelled if it is cardio. All of this information is populated in different charts for easy readability and as a way for users to look at all their workouts as a whole. Being able to track and keep progress of workouts will allow users to reach their fitness goals quicker.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+<a name="instr"></a>
+## Instructions
+Either "Click" the heroku([Link.](#link)) above or
 
-* Follow these guidelines for committing:
+Run this command in your Command line
+```
+nodemon server.js
+```
+* Type in localhost:3000/ in the browser and you will be brought to the home page.
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+<a name="tc"></a>
+## Technologies Used
+* Node.js
+* JavaScript
+* bootstrap
+* Mysql workbench
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+<a name="dep"></a>
+# Dependencies
+* express
+* mongojs
+* morgan
+* mongoose
 
-  * Test your application before you commit to ensure functionality at every step in the development process
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../important/MongoAtlas-Deploy.md)
+<a name="video"></a>
+# Video of how it works.
+> If you click GIF you will be navigated to YouTube for a full-video.
 
-## Submission on BCS
+[![Fitness Tracker](https://media.giphy.com/media/dLteGUxUgZofTWWIMc/giphy.gif)](https://youtu.be/4Cjq_JS5bZc)
 
-* You are required to submit the following:
 
-  * the URL to the deployed application
 
-  * the URL to the Github repository
+<a name="sc"></a>
+# Screen Shots
+### Home
+<img src="assets/img/dash.png">
+
+### Stats Page
+<img src="assets/img/stats.png">
+
+
+### exercise Page
+<img src="assets/img/exercise.png">
+
