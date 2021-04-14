@@ -19,7 +19,7 @@ give it a try: <a href="https://fitnesscoolness.herokuapp.com/?id=606b87db9a6228
 <a name="desc"></a>
 ## Description
 
-This application is a workout/fitness tracker that allows a user to create, track, and view daily workouts. They are given the option to log multiple workouts a day, and the application tracks the name, type, weight, sets, reps, and duration if it is a resistance exercise, and tracks the distance travelled if it is cardio. All of this information is populated in different charts for easy readability and as a way for users to look at all their workouts as a whole. Being able to track and keep progress of workouts will allow users to reach their fitness goals quicker.
+In this repository, I have built a Budget Tracker application utilizing IndexedDb. The main focus of this unit was Progressive Web Applications (PWA's) and this application allows for online/offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
 
 <a name="instr"></a>
@@ -28,9 +28,9 @@ Either "Click" the heroku([Link.](#link)) above or
 
 Run this command in your Command line
 ```
-nodemon server.js
+node server.js
 ```
-* Type in localhost:3000/ in the browser and you will be brought to the home page.
+* Type in localhost:8080 in the browser and you will be brought to the home page.
 
 
 <a name="tc"></a>
@@ -38,14 +38,15 @@ nodemon server.js
 * Node.js
 * JavaScript
 * bootstrap
-* Mysql workbench
+* webmanifest
+* mongoDb
 
 <a name="dep"></a>
 # Dependencies
 * express
-* mongojs
 * morgan
 * mongoose
+* manifest
 
 
 
@@ -53,19 +54,15 @@ nodemon server.js
 # Video of how it works.
 > If you click GIF you will be navigated to YouTube for a full-video.
 
-[![Fitness Tracker](https://media.giphy.com/media/dLteGUxUgZofTWWIMc/giphy.gif)](https://youtu.be/4Cjq_JS5bZc)
+[![Budget Tracker](https://media.giphy.com/media/l7xlQ3xDIyQNBZnTNq/giphy.gif)](https://www.youtube.com/watch?v=jQ-yy9_lYAo)
 
 
 
 <a name="sc"></a>
 # Screen Shots
-### Home
-<img src="assets/img/dash.png">
+### online
+<img src="public/img/online.png">
 
-### Stats Page
-<img src="assets/img/stats.png">
-
-
-### exercise Page
-<img src="assets/img/exercise.png">
+### offline
+<img src="public/img/offline.png">
 
